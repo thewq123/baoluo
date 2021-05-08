@@ -13,7 +13,7 @@ body::before {
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url(/fcc小项目2/image/baolou.jpeg);
+    background-image: url(image/baolou.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
