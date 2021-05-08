@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入样式表 -->
+    <link rel="stylesheet" href="/fcc小项目2/css/index.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <h1 class="title">
+            Chris Pau Survey Form
+        </h1>
+        <p class="description">
+            <i>
+                Thank you for taking the time to help us improver the platform
+            </i>
+        </p>
+    </header>
+
+    <!-- 表单部分 -->
+   <form>
+      <div class="messge">
+        <div class="zi">
+            <label for="name" id="name-label">姓名:</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="请输入姓名">
+        </div>
+        <br/>
+         
+       <div class="zi">
+        <label for="age" id="age-label">年龄:</label>
+        <input type="number" name="age" id="age" class="form-control" placeholder="请输入您的年龄">
+       </div>
+        <br>
+ 
+       <div class="zi">
+        <label for="email" id="email-label">邮箱:</label>
+        <input type="text" name="email" id="email" class="form-control" placeholder="请输入您的邮箱地址">
+       </div>
+        <br>
+      </div>
+      
+
+       <div class="div-dropdown">
+           <p>哪一个保罗最能描述保罗是真实的保罗?</p>
+          <select name="role" id="dropdown" class="form-control">
+            <option value="dashi">58大师</option>
+            <option value="paoquan">炮拳大师</option>
+            <option value="chuangqiu">传球大师</option>
+            <option value="kongwei">控球后卫之神</option>
+            <option value="zhongtou">无敌中投</option>
+            <option value="dangchai">终极无敌挡拆之神</option>
+          </select>
+       </div>
+
+       <div class="tuijian">
+           <p>你会向你的朋友们吹嘘保罗吗?</p>
+           <br>
+        <label for="" >
+               <input type="radio" name="user-recommend" value="no" checked>
+               不会
+        </label>
+        <br>
+        <label for="" >
+                <input type="radio" name="user-recommend" value="maybe" checked>
+                也许
+        </label>
+        <br>
+        <label for="" >
+                <input type="radio" name="user-recommend" value="yes" checked>
+                会的
+        </label>
+
+       </div>
+
+       <div class="zuiai">
+          <p>你最期望获得保罗的哪项技能</p> 
+          <select name="most-like" id="most-like" class="form-control">
+              <option value="zhongtou">中投</option>
+              <option value="dangchai">挡拆</option>
+              <option value="qiushang">球商</option>
+              <option value="wuba">58</option>
+              <option value="eq">情商</option>
+
+          </select>
+
+       </div>
+
+       <div class="gailiang">
+           <p>你觉得自己在篮球方面还有什么要加强的?</p>
+           <span class="clue">(可以多选)</span>
+            <br>
+                    <div class="xuan">
+                        <label for="">
+                            <input type="checkbox" name="prefer" value="zhongtou" class="input-checkbox">
+                            中投
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox" name="prefer" value="dangchai" class="input-checkbox">
+                            挡拆
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox" name="prefer" value="qiushang" class="input-checkbox">
+                            球商
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox" name="prefer" value="qingshang" class="input-checkbox">
+                            情商
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox" name="prefer" value="kongqou" class="input-checkbox">
+                            控球
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox" name="prefer" value="chuanqiu" class="input-checkbox">
+                            传球
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox" name="prefer" value="qizhi" class="input-checkbox">
+                            气质
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox" name="prefer" value="yanzhi" class="input-checkbox">
+                            颜值
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox" name="prefer" value="xintai" class="input-checkbox">
+                            心态
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox" name="prefer" value="taidu" class="input-checkbox">
+                            态度
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox" name="prefer" value="xinqi" class="input-checkbox">
+                            心气
+                        </label>
+                    </div>
+       </div>
+
+       <div class="jianyi">
+           <p>
+               有什么评论和建议吗?
+           </p>
+
+           <textarea name="comments" id="comments" cols="30" rows="10" class="input-textarea" placeholder="在这里输入你的内容"></textarea>
+       </div>
+
+       <div class="tijiao">
+           <button type="submit" id="submit" class="submit-button">
+               提交
+           </button>
+       </div>
+
+
+
+
+
+
+
+   </form>
+</body>
+</html>

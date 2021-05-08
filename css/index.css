@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 1200px;
+    box-sizing: border-box;
+}
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(/fcc小项目2/image/baolou.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -10;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: auto;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 252px;
+    padding: 30px 20px;
+}
+.messge {
+    margin:20px auto;
+}
+.messge .zi {
+    margin: 1px;
+    border-radius: 50%;
+}
+form .gailiang {
+    text-align: left;
+    margin-top: 10px;
+} 
+
+.div-dropdown {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.div-dropdown p {
+    text-align: center;
+}
+.tuijian {
+    margin-bottom: 30px;
+}
+.zuiai {
+    margin-bottom: 30px;
+}
+.xuan {
+    margin-left: 60px;
+}
